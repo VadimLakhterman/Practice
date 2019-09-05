@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="set k bit">
+      <UniqueIdentifier>{7b8b74d1-83b2-4343-99dd-19615f43eab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="set k bit\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="set k bit\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{ea38ca58-cc31-4486-937b-5c1c7fb363a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Header Files">
+      <UniqueIdentifier>{46fc7422-a58b-45db-9066-1afd26dec354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\Resource Files">
+      <UniqueIdentifier>{37d16380-72f2-4210-b147-1320dc9fb368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PowOf2">
+      <UniqueIdentifier>{83ff3f73-cb75-47b9-802f-032f33e5ffbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PowOf2\Header Files">
+      <UniqueIdentifier>{7ef20cca-1242-4360-9653-7ddbc46d4b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PowOf2\Resource Files">
+      <UniqueIdentifier>{0a3e874a-682b-4398-8766-d27cb77b12ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Kbit.cpp">
+      <Filter>set k bit\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Controller\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PowOf2.cpp">
+      <Filter>PowOf2\Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller.h">
+      <Filter>Controller\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PowOf2.h">
+      <Filter>set k bit\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kbit.h">
+      <Filter>PowOf2\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
